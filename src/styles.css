@@ -6,10 +6,12 @@ html, body, div, iframe
  border: none;
  overflow-y: hidden;
 }
-
+iframe {
+  pointer-events:none;
+}
 .titlebar {
   height: 10%;
-  background: #ad16ad;
+  background: green;
   user-select: none;
   display: flex;
   justify-content: flex-end;
@@ -26,25 +28,8 @@ html, body, div, iframe
   height: 30px;
 }
 
-.on {
-  animation: pulsing 3s infinite;
-  background: #ff00ff;
-}
-
-@keyframes pulsing {
-  0% {
-    background: #e027e0;
-  }
-  50% {
-    background: #ff00ff;
-  }
-  100% {
-    background: #e027e0;
-  }
-}
-
 .titlebar-button:hover {
-  background: #e027e0;
+  background: lightgreen;
 }
 
 iframe {

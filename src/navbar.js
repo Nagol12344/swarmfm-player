@@ -49,6 +49,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
         }
       });
     document
+    .getElementById("titlebar-play")
+    .addEventListener("click", () => {
+      player.playVideo();
+    });
+    document
       .getElementById("titlebar-pintotop")
       .addEventListener("click", async () => {
         if (
