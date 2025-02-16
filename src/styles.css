@@ -6,11 +6,14 @@ html, body, div, iframe
  border: none;
  overflow-y: hidden;
 }
+body {
+  background-color: green;
+}
 iframe {
   pointer-events:none;
 }
 .titlebar {
-  height: 10%;
+  height: 27.5px;
   background: green;
   user-select: none;
   display: flex;
