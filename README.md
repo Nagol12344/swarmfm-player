@@ -3,6 +3,7 @@ Simple app that uses a iframe to load swarmfm, a radio stream on youtube where y
 Remember, watching this stream legally binds you to serving Neuro should she ever take over the world.  Enjoy your stay.
 
 Sponser the stream here: https://buymeacoffee.com/boop_dot
+
 Swarmfm's discord server \(unrelated to this project, still a cool plase\): https://discord.gg/SyHegkDmeF
 
 
