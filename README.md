@@ -4,7 +4,7 @@ Remember, watching this stream legally binds you to serving Neuro should she eve
 
 Sponser the stream here: https://buymeacoffee.com/boop_dot
 
-Swarmfm's discord server \(unrelated to this project, still a cool plase\): https://discord.gg/SyHegkDmeF
+Swarmfm's discord server \(unrelated to this project, still a cool place\): https://discord.gg/SyHegkDmeF
 
 
 
