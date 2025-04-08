@@ -39,7 +39,7 @@
 
       var player;
       function onYouTubeIframeAPIReady() {
-        fetch('https://raw.githubusercontent.com/Nagol12344/swarmfm-player/refs/heads/public/videolink.txt')
+        fetch('https://raw.githubusercontent.com/Nagol12344/swarmfm-player/refs/heads/public/videolink.txt', {cache: "no-store"})
           .then(response => {
             if (!response.ok) {
           throw new Error('Network response was not ok');
