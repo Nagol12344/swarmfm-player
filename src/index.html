@@ -39,7 +39,7 @@
 
       var player;
       function onYouTubeIframeAPIReady() {
-        fetch('https://raw.githubusercontent.com/Nagol12344/swarmfm-player/refs/heads/public/videolink.txt', {cache: "no-store"})
+        fetch('https://swarmfm.ktrain5369.me/api/livestream', {cache: "no-store"})
           .then(response => {
             if (!response.ok) {
           throw new Error('Network response was not ok');
@@ -47,7 +47,10 @@
             return response.text();
           })
           .then(data => {
-            const videoId = data.trim();
+            data = JSON.parse(data);
+            data = data["rawVideoCode"]
+            console.log(data);
+            const videoId = data;
             player = new YT.Player('player', {
               height: '100%',
               width: '100%',
