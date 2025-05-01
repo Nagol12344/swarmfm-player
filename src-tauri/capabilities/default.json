@@ -3,7 +3,7 @@
   "identifier": "default",
   "description": "Capability for the main window",
   "windows": ["main"],
-  "permissions": [
+"permissions": [
     "core:default",
     "opener:default",
     "core:window:allow-start-dragging",
@@ -11,6 +11,11 @@
     "core:window:allow-close",
     "dialog:default",
     "dialog:allow-ask",
-    "core:window:allow-set-always-on-top"
+    "core:window:allow-set-always-on-top",
+    {
+      "identifier": "http:default",
+      "allow": [{ "url": "https://swarmfm.ktrain5369.me/*" }],
+      "deny": [{ "url": "https://google.com" }]
+    }
   ]
 }
