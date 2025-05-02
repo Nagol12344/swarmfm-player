@@ -44,6 +44,9 @@
               }
               const responseData = await response.text();
               tempdata = JSON.parse(responseData);
+              if (tempdata.error) {
+                  throw new Error('No data found');
+              }
               console.log(tempdata);
           } catch (error) {
               console.error('Error fetching livestream data:', error);
