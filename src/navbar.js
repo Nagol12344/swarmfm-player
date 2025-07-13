@@ -72,6 +72,14 @@ document.addEventListener("DOMContentLoaded", (event) => {
           document.getElementById("titlebar-minimize").style.display = "none";
         }
       });
+    document
+      .getElementById("volume-slider")
+      .addEventListener("input", (event) => {
+        console.log(event.target.value);
+        player.setVolume(
+          parseInt(event.target.value, 10) / 100
+        );
+      });
   }, 100);
 });
 
