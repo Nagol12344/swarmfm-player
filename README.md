@@ -1,11 +1,12 @@
-![image](README/Banner.png)
+# Swarmfm-player
+Simple app that uses a iframe to load swarmfm, a radio stream on youtube where you can listen to music from Neuro-Sama and Evil's karaoke streams to your heart's content. 
+Remember, watching this stream legally binds you to serving Neuro should she ever take over the world.  Enjoy your stay.
 
-# Development Steps:
-1: `git clone https://github.com/gwashark/swarmfm-player.git`
-2: `npm ci`
-3: `npm run tauri dev`
+Sponser the stream here: https://buymeacoffee.com/boop_dot
 
-# Building Steps:
-1: `npm run tauri build`
+Swarmfm's discord server \(unrelated to this project, still a cool place\): https://discord.gg/SyHegkDmeF
 
-This project is not officially made by Swarm FM but is an open source player made for anyone to change.
+
+
+
+This project, aswell as the stream is not affiliated with Vedal or Neuro in any way.
